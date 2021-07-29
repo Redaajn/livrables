@@ -1,0 +1,23 @@
+.carousel-inner {
+
+    height: 550px !important;
+}
+.item, img {
+    height: 100% !important ;
+width: 100% !important;
+}
+.text-left {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color : rgb(75, 67, 55);
+}
+.sport{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.nav-item{
+    padding-left: 5em;
+}
+.make{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:
+}

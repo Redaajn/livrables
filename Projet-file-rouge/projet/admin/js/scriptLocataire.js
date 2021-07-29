@@ -1,0 +1,1 @@
+ReactDOM.render(<AppLocataire />, document.getElementById('app'));

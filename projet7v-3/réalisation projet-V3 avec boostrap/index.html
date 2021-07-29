@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>prototype-class</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <script src='class.js'></script>
+    <script src='main.js'></script>
+
+</head>
+<body>
+    <div class="container my-4">  
+
+        
+        
+        <div class="calculator card">
+        
+            <input type="text" class="calculator-screen z-depth-1" id="afficheur" value="" disabled />
+        
+            <div class="calculator-keys">
+        
+              <button type="button" class="operator btn btn-info" onclick="operation('+')" value="+">+</button>
+              <button type="button" class="operator btn btn-info" onclick="operation('-')" value="-">-</button>
+              <button type="button" class="operator btn btn-info" onclick="operation('x')" value="*">&times;</button>
+              <button type="button" class="operator btn btn-info"onclick="operation('/')" value="/">&divide;</button>
+        
+              <button type="button" value="7" onclick="cliknumber (7)" class="btn btn-light waves-effect">7</button>
+              <button type="button" value="8" onclick="cliknumber (8)" class="btn btn-light waves-effect">8</button>
+              <button type="button" value="9" onclick="cliknumber (9)" class="btn btn-light waves-effect">9</button>
+        
+        
+              <button type="button" value="4" onclick="cliknumber (4)" class="btn btn-light waves-effect">4</button>
+              <button type="button" value="5" onclick="cliknumber (5)" class="btn btn-light waves-effect">5</button>
+              <button type="button" value="6" onclick="cliknumber (6)" class="btn btn-light waves-effect">6</button>
+        
+        
+              <button type="button" value="1" onclick="cliknumber (1)" class="btn btn-light waves-effect">1</button>
+              <button type="button" value="2" onclick="cliknumber (2)" class="btn btn-light waves-effect">2</button>
+              <button type="button" value="3" onclick="cliknumber (3)" class="btn btn-light waves-effect">3</button>
+        
+        
+              <button type="button" value="0" onclick="cliknumber (0)" class="btn btn-light waves-effect">0</button>
+              <button type="button" onclick="cliknumber ('.')" class="decimal function btn btn-secondary" value=".">.</button>
+              <button type="button" onclick="init()" class="all-clear function btn btn-danger btn-sm" value="all-clear">AC</button>
+        
+              <button type="button" onclick="Egal()" class="equal-sign operator btn btn-default" value="=">=</button>
+        
+            </div>
+          </div>
+        </div>
+</body>
+</html>
